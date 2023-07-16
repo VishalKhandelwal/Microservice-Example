@@ -1,0 +1,12 @@
+//create new db 
+use microservices
+
+//create collection in db
+db.createCollection("ratings")
+
+ mongodb://127.0.0.1:27017
+microservices
+
+
+//see collection data
+db.user_ratings.find()
